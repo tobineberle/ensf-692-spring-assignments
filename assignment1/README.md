@@ -1,5 +1,5 @@
 ## TOBIN EBERLE
-## The best time to start is now
+## "The best time to start is now"
 ## 📝 ENSF 692 - Assignment 1 Tasks
 * Open VSCode and start a new terminal. 
 * Edit this `README` file to add your first and last name, and your favourite inspirational quote.
