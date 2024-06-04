@@ -3,7 +3,7 @@
 # A terminal-based program for processing computer vision changes detected by a car.
 
 class Sensor:
-    def __init__(self, light = 'red', pedestrian = 'yes', vehicle = 'yes'):
+    def __init__(self, light = 'green', pedestrian = 'no', vehicle = 'no'):
         self.light = light
         self.pedestrian = pedestrian
         self.vehicle = vehicle
@@ -15,7 +15,7 @@ class Sensor:
     # A yellow light with no pedestrian or vehicle detected should display the message "Caution"
     def update_status(self):
 
-        if self.light in 'red':
+        if self.light in 'red': 
             self.status = 'STOP'
 
         elif self.pedestrian in 'no' and self.vehicle in 'no':
